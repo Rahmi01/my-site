@@ -25,6 +25,8 @@ ul {
 .header {
      min-height: 100dvh;
      background: dodgerblue;
+     display: flex;
+     flex-direction: column;
 }
 
 .header__nav {
@@ -48,5 +50,34 @@ ul {
      font-size: 20px;
      color: #fff;
 }
+
+.header__content {
+     display: grid;
+     place-items: center;
+     flex-grow: 1;
+}
+
+.header__content-title {
+     font-size: 6vw;
+     color: #fff;
+}
+
+
+/* .header__content-title { */
+     /* font-size: 6vw; */
+     /* font-size: calc(18px + 62 * (100vw / 1920)); */
+     /* 36 mobile size */
+     /* 36 + 29 desktop size */
+/* } */
+
+/* @media (min-width: 2560px) {
+     .header__content-title {font-size: 80px;}
+}
+
+@media (max-width: 768px) {
+     .header__content-title {
+          font-size: calc(18px + 62 * ((100vw - 320px) / 1920));
+     }
+} */
 
 /* header */
