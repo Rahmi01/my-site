@@ -54,12 +54,29 @@ ul {
 .header__content {
      display: grid;
      place-items: center;
+     place-content: center;
      flex-grow: 1;
+     gap: 16px;
 }
 
 .header__content-title {
      font-size: 6vw;
      color: #fff;
+}
+
+.header__content-subtitle {
+     font-size: 24px;
+     color: #fff;
+}
+
+.header__content-btn {
+     font-size: 18px;
+     color: #fff;
+     background: #000;
+     max-width: 170px;
+     width: 100%;
+     padding: 10px 0;
+     text-align: center;
 }
 
 
